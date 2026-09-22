@@ -9,3 +9,5 @@
 @media(max-width:680px){.hero-grid{grid-template-columns:minmax(0,1fr);gap:24px}.profile-portrait{grid-column:1;grid-row:1;width:165px;height:195px}.hero-copy{grid-column:1;grid-row:2}.hero h1{font-size:2.5rem}}
 
 .profile-portrait{position:relative;overflow:hidden}.profile-portrait img{position:absolute;width:200%;max-width:none;height:auto;left:-40%;top:-45%}
+
+.research-figure{margin:24px 0 0;max-width:806px}.research-figure img{display:block;width:100%;height:auto;border-radius:4px}.research-figure figcaption{display:block;margin-top:10px;color:var(--muted);font:0.9rem/1.5 var(--sans)}
