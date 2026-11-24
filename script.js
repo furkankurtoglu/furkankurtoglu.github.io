@@ -7,7 +7,7 @@ function selectCategory(category, announce = true) {
   projects.forEach(project => { project.hidden = project.dataset.category !== category; });
   if (announce) {
     const count = projects.filter(project => !project.hidden).length;
-    document.querySelector('#filter-status').textContent = `${count} ${category === 'research' ? 'research projects' : 'applied AI project'} shown.`;
+    document.querySelector('#filter-status').textContent = `${count} ${category === 'research' ? 'research' : 'applied AI'} project${count === 1 ? '' : 's'} shown.`;
   }
 }
 if (filters && filterButtons.length && projects.length) {
